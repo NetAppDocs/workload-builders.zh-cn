@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: create-workspaces.html 
+keywords: manage, workspace, snapshot, project 
+summary: 'BlueXP  Workload Factory中的"构建者"工作空间是基于项目快照的项目的Perforce表示形式。您可以在构建者项目中创建工作空间。' 
+---
+= 创建工作空间
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  Workload Factory中的"构建者"工作空间是项目在特定时刻的Perforce表示形式。工作空间是基于项目快照创建的。您可以在构建者项目中创建新工作空间。您可以从Perforce UI创建工作空间。
+
+.开始之前
+确保已将Build与Perforce Helix Visual Client集成在一起。有关详细信息、请参见 link:integrate-perforce.html["将构建者与Perforce集成"^] 。
+
+.步骤
+. 登录到Perforce。
+. 在Perforce菜单中，选择*视图*>*工作表*。
++
+Perforce UI中会显示工作负载出厂登录屏幕。
+
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 选择*创建工作空间*。
+. 在Create a workspace project页面上、提供以下内容：
++
+.. 选择要用作工作空间基础的快照。
+.. 输入工作空间的名称。
+.. (可选)输入用户标识符以声明此工作空间。此标识符应与将使用此工作空间的开发人员的Perforce用户ID匹配。
+
+
+. 选择 * 创建 * 。
+
+
+.结果
+此时将创建工作空间、并显示在Workspaces"页面上的工作空间列表中。

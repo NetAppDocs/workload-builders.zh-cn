@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: integrate-perforce.html 
+keywords: software builders, integrate, integration, Perforce 
+summary: 了解如何将构建者与Perforce集成。 
+---
+= 将构建者与Perforce集成
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+将构建程序与Perforce Helix Visual Client (P4V)集成、以便开发人员可以使用Perforce命令行界面管理您的工作空间。这样、开发人员就可以在项目和工作空间之间快速切换、从而节省开发时间。
+
+.步骤
+. 下载 https://builders.console.workloads.netapp.com/p4v["P4V集成文件"^]。
+. 打开P4V并转到*Tools*>*Manage Tools*>*HTML Tabs*。
+. 选择*导入HTML选项卡*。
+. 选择P4V集成XML文件，然后选择*Import*。
+. 转到*View*>*Workload Factory。
+
+
+.结果
+Build者Web UI的BlueXP  工作负载出厂设置在P4V客户端中显示为HTML选项卡。
+
+.下一步是什么？
+link:manage-projects.html["使用迁移顾问创建Amazon EC2部署计划"](英文)

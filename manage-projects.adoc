@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: manage-projects.html 
+keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
+summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。 
+---
+= 管理构建者项目
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以管理"构建者"项目、以控制如何在BlueXP  的"构建者工作负载"工厂中为每个项目管理代码和项目。
+
+
+
+== 创建项目
+
+您可以创建新的构建者项目、以便对代码和项目利用Amazon FSx for NetApp ONTAP文件系统的数据保护功能。
+
+.步骤
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 在“构建者”磁贴中，选择*Create project*。
+. 在创建项目页面上、提供以下内容：
++
+.. *项目名称*：输入项目名称。
+.. *Description*：输入项目的说明。
+.. *文件系统*：提供以下内容：
++
+... *凭据*：选择要使用的Amazon AWS凭据。构建者可以使用这些凭据来发现可用于此项目的FSx for ONTAP文件系统、并创建项目的克隆和快照。
+... *地区*：选择此FSx for ONTAP文件系统所在的区域。
+... *FSx for ONTAP FilesFilesUs*：选择要用于此项目的FSx for ONTAP文件系统。
++
+您只能选择使用链接配置的文件系统。 https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["了解有关链接的更多信息"^](英文)。
+
+... *选择卷*：选择要存储项目的卷；构建者使用此卷作为软件存储库。
++
+您只能选择配置为NFS共享的卷。
+
+
+
+.. *操作策略*：为项目克隆提供限制：
++
+... *最大保留天数*：输入克隆应保留的最大天数。在此天数后、工作负载出厂将删除此克隆。
+... *每个用户或组的最大克隆数*：输入可为用户或组配置的最大克隆数。
+... *以GiB为单位的最大克隆大小*：输入项目克隆的最大大小(以GiB为单位)。
+
+
+.. *访问策略*：明确授予特定用户或组项目访问权限：
++
+... *策略实施范围*：输入单个IP地址或IP地址范围，以将项目访问限制为只能访问这些IP地址或范围。
++
+例如： `172.16.0.0/24`
+
+... *用户或组标识符*：输入用户或组标识符以限制仅对这些用户或组的项目访问。
++
+例如： `User1234`
+
+
+
+
+
+. 选择 * 创建 * 。
+
+
+.结果
+此时将创建项目、并显示在"项目"页面上的项目列表中。
+
+
+
+== 查看现有项目
+
+您可以按照以下步骤查看在BlueXP  Workload Factory中为构建者创建的现有项目。
+
+.步骤
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 在“构建者”磁贴中，选择*转至“项目”页面*。
+. 查看"项目"页面上列出的现有项目。
+
+
+
+
+== 编辑项目
+
+您可以随时编辑项目的设置。
+
+.步骤
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 在“构建者”磁贴中，选择*转至“项目”页面*。
+. 在项目页面上、为要编辑的项目选择image:icon-action.png["选项按钮"]。
+. 对项目配置进行任何必要的更改。
+. 选择 * 保存 * 。
+
+
+.步骤
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 在“构建者”磁贴中，选择*转至“项目”页面*。
+. 在项目页面上、为要创建快照的项目选择image:icon-action.png["选项按钮"]。
+. 在显示的菜单中，选择*创建快照*。
+. 在*创建快照*对话框中，选择快照的名称，然后选择*创建*。
+
+
+
+
+== 查看项目的工作空间
+
+项目的克隆或快照称为工作空间。创建工作空间时、只要项目的操作策略允许、该工作空间就会保留一段时间。您可以按照以下步骤查看项目的现有工作空间。
+
+.步骤
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 在“构建者”磁贴中，选择*转至“项目”页面*。
+. 在“项目”页面上，选择一个项目，然后选择*View*。
+. 查看此项目的所有工作区的状态和详细信息。
+. 如果您看到某个工作区的警报或警告、请将鼠标悬停在警报或警告图标上以查看原因。
+
+
+
+
+== 删除项目
+
+您可以按照以下步骤删除不再需要的项目。
+
+.步骤
+. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 在“构建者”磁贴中，选择*转至“项目”页面*。
+. 在项目页面上、为要删除的项目选择image:icon-action.png["选项按钮"]。
+. 选择 * 删除 * 。
+. 在确认对话框中，选择*Delete*。
+
+
+.结果
+此时将删除该项目、并从卷中删除与该项目关联的任何代码或项目。保留项目的快照和克隆。

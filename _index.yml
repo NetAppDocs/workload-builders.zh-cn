@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: BlueXP  Workload Factory for Build文档
+  lead: 在BlueXP  工作负载工厂基于FSx创建和管理适用于ONTAP文件系统存储的软件开发项目。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 发行说明
+      url: "/whats-new.html"
+    - title: 了解构建者
+      url: "/learn-builders.html"
+    - title: 快速入门
+      url: "/quick-start-builders.html"
+  - title: 使用构建者
+    links:
+    - title: 管理项目
+      url: "/manage-projects.html"
+    - title: 创建工作空间
+      url: "/create-workspaces.html"
+    - title: 使用CodeBox实现自动化
+      url: "/automate-codebox.html"
+  - title: 知识和支持
+    links:
+    - title: 注册以获得支持
+      url: "/support-registration.html"
+    - title: 获取帮助
+      url: "/get-help-builders.html"

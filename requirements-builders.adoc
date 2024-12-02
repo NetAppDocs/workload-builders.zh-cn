@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: requirements-builders.html 
+keywords: Builders, FSx, project, projects 
+summary: 在开始使用适用于构建者的BlueXP  工作负载工厂之前、请确保已正确设置工作负载工厂和AWS。其中包括拥有AWS登录凭据、已部署的FSx for ONTAP文件系统等。 
+---
+= 构建者要求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+在开始使用适用于构建者的BlueXP  工作负载工厂之前、请确保已正确设置工作负载工厂和AWS。其中包括拥有AWS登录凭据、已部署的FSx for ONTAP文件系统等。
+
+工作负载出厂登录和帐户:: 您需要 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["在Workload Factory中设置一个帐户"^]使用其中一个登录 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+AWS 凭据和权限:: 您需要将AWS凭据添加到具有自动化权限的工作负载工厂、这意味着您将在_Automate_mode下对构建者使用工作负载工厂。
+
+
+目前不支持_Basic_模式和_Read_模式权限。https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何将AWS凭据添加到工作负载工厂"^]
+
+FSx for ONTAP文件系统:: 对于ONTAP文件系统、至少需要一个FSx：
++
+--
+* 构建者将使用该文件系统来存储您创建的项目和工作空间。
++
+此FSx for ONTAP文件系统必须使用FlexVol卷。不支持 FlexGroup 卷。
+
+* 您需要了解AWS FSx for ONTAP文件系统所在的AWS区域、VPC和子网。
+* 文件系统中至少需要一个具有以下配置的卷：
++
+** 必须将此卷配置为NFS共享。
+** 必须为文件系统配置一个链接。 https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["了解有关链接的更多信息"^](英文)。
+
+
+* 您需要考虑要应用于此部署中的AWS资源的标记键/值对(可选)。
++
+https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["了解如何部署和管理FSx for ONTAP文件系统"^]
+
+
+
+--
+
