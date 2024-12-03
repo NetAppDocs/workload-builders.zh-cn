@@ -281,26 +281,6 @@
   <block id="1f44141a0f383810dac8c932e0d76754" category="list-text">您需要考虑要应用于此部署中的AWS资源的标记键/值对(可选)。</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">了解如何部署和管理FSx for ONTAP文件系统</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="284b0f618c1cefab43ce3a83c106ac42" category="summary">在工作负载出厂时为数据库还原沙盒克隆。</block>
-  <block id="ba981915546be1bb9a1a5f34021cb317" category="doc">在工作负载出厂时为数据库还原沙盒克隆</block>
-  <block id="119092644393b63350941f731f4e02dd" category="paragraph">在创建数据库克隆时将其还原为原始版本。</block>
-  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">关于此任务</block>
-  <block id="36bfe5aa9dbfbad068e6721ddea626bb" category="paragraph">克隆数据库时、创建时的克隆为_baseline克隆。克隆数据库中的数据与创建时的源数据库相同。由于沙盒数据库克隆中的数据会随时间发生变化、因此您可能需要在首次创建克隆时将数据还原回基线。此操作称为为克隆重新设定基线。重新设定克隆基线而不是创建新克隆可节省空间；但是、对沙盒克隆所做的任何更改都将被删除。</block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">工作负载出厂控制台</block>
-  <block id="2e600fc81eb21acd31aa44d1697dc84f" category="list-text">登录到 <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>。</block>
-  <block id="a22aeb541c430c47c35bcc20690ea51a" category="list-text">在数据库磁贴中，选择*转至数据库库存*。</block>
-  <block id="a1029809e498e81eaada752a6b08cd7c" category="list-text">在数据库中，选择*沙盒*选项卡。</block>
-  <block id="e25b967c54d3008b230ffd4e18be90cb" category="list-text">在沙盒选项卡中、单击要还原的沙盒克隆的三个点菜单。</block>
-  <block id="0975db7a2f5f2be54dab36d8b76af890" category="list-text">选择*重新基线*。</block>
-  <block id="ee39d3157a6b84476b1e530c43e7e0af" category="list-text">在Re-baseline (重新基线)对话框中，单击*Re-baseline (重新基线)*。</block>
-  <block id="60662f13dd467742de00d5852483a73d" category="summary">从源数据库中拆分沙盒克隆以创建新数据库。</block>
-  <block id="5697f3fa0c3bfd3435b1268d395d044b" category="doc">从源数据库中拆分沙盒克隆</block>
-  <block id="7e63ac86d460cf0995a5ac132e4c8092" category="paragraph">将沙盒克隆从其源数据库拆分会创建一个新数据库、该数据库将占用一定的存储容量。拆分完成后、克隆将被删除、新数据库将显示在清单中。</block>
-  <block id="bad5772919d73bf3b17433524b58ead6" category="inline-link-macro">增加文件系统容量</block>
-  <block id="eed30e1e95c32e95da513640e3e7e215" category="paragraph">考虑新数据库需要多少存储容量。如果需要、 <block ref="ecf193ca0846a4137269dac878e92281" category="inline-link-macro-rx"></block> 请在开始之前对FSx for ONTAP文件系统执行此操作。</block>
-  <block id="be0c57159940db106da8c592b3a6f1a7" category="list-text">在沙盒选项卡中、单击要拆分的沙盒克隆的三个点菜单。</block>
-  <block id="54e2c4dd2b9e992b761540f131754e81" category="list-text">选择*S之 分*。</block>
-  <block id="05b751f4cbd4ae2611783e6ab193a961" category="list-text">在“拆分”对话框中，单击*Split。</block>
   <block id="056634bec4a153903ebb9b769277f4d7" category="summary">要向NetApp技术支持创建支持案例、您需要先将NetApp支持站点帐户添加到工作负载工厂、然后注册支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="996ad73a480311d4f86d6946935389d2" category="paragraph">要获得特定于Workload Factory及其存储解决方案和服务的技术支持、需要注册支持。您必须从BlueXP控制台注册获得支持、BlueXP控制台是一个与Workload Factory不同的基于Web的控制台。</block>
@@ -344,7 +324,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">拥有NetApp支持站点帐户后，请完成下的步骤，将该帐户与BlueXP登录相关联 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="b695d69d992cf41ed6cb2eae330d2d9a" category="summary">了解数据库工作负载工厂的新增功能。</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">新增功能</block>
   <block id="b3c5650c2bbe2cf7e9b39aa77519169b" category="paragraph">了解工作负载工厂的"构建者"功能的新增功能。</block>
   <block id="5c8df45cbe01191b205c30373b7e5739" category="section-title">2024年12月1日</block>
   <block id="77ecc188e3683ff647e9350cea980265" category="sidebar">在BlueXP  工作负载工厂基于FSx创建和管理适用于ONTAP文件系统存储的软件开发项目。</block>
@@ -360,4 +339,11 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">要求</block>
   <block id="b3484ff5a2e6115fc61edc79c83f8c4c" category="sidebar">使用构建者工作负载</block>
+  <block id="eea1c8722623804ecbfedb5877fe1fe0" category="doc">使用CodeBox自动执行构建者任务</block>
+  <block id="d9c7cb0c1a45fbc72de246fdddd7728b" category="doc">创建构建者工作空间</block>
+  <block id="15db2e3e50e69780a1a62157fd7d29fa" category="doc">获取有关构建者的帮助</block>
+  <block id="811bf57d4ae533110508a5fcc7be0276" category="doc">适用于构建者的BlueXP  工作负载工厂的已知限制</block>
+  <block id="827e97c0eb67d11c51fdab3d7de7cc47" category="doc">有关BlueXP  Workload Factory for Builder的法律声明</block>
+  <block id="f326a729fb5b859cb51ee1e03ade5a34" category="doc">注册以获得BlueXP  Workload Factory for Build的支持</block>
+  <block id="4f2bbf87005596e383f28ae211c4bd94" category="doc">适用于构建者的BlueXP  工作负载工厂的新增功能</block>
 </blocks>

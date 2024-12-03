@@ -4,7 +4,7 @@ permalink: automate-codebox.html
 keywords: automation, code automation, automate 
 summary: 您可以使用CodeBox自动执行主机部署、数据库创建等操作。 
 ---
-= 使用CodeBox实现自动化
+= 使用CodeBox自动执行构建者任务
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

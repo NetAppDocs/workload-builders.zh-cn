@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
 summary: 了解数据库工作负载工厂的新增功能。 
 ---
-= 新增功能
+= 适用于构建者的BlueXP  工作负载工厂的新增功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

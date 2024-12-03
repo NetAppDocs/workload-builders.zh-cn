@@ -4,7 +4,7 @@ permalink: create-workspaces.html
 keywords: manage, workspace, snapshot, project 
 summary: 'BlueXP  Workload Factory中的"构建者"工作空间是基于项目快照的项目的Perforce表示形式。您可以在构建者项目中创建工作空间。' 
 ---
-= 创建工作空间
+= 创建构建者工作空间
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
