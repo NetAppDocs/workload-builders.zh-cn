@@ -346,4 +346,8 @@
   <block id="e13a5649dfef3a1c76c4be8e463226d7" category="list-text">在工作负载工厂控制台的右上角，选择*Help &gt; Support*。</block>
   <block id="ce638fcfafd4d79a49524062225d7fbc" category="paragraph">要获得特定于BlueXP  工作负载工厂及其存储解决方案和服务的技术支持、需要注册支持。您必须从BlueXP  控制台注册获取支持、该控制台是工作负载出厂时单独的基于Web的控制台。</block>
   <block id="2cbcc262b0a39ec19c5f69bffccb70fb" category="paragraph">注册获取支持不会为云提供商文件服务启用NetApp支持。有关与云提供商文件服务、其基础架构或任何使用该服务的解决方案相关的技术支持、请参阅该产品的工作负载工厂文档中的"获得帮助"。</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
 </blocks>
