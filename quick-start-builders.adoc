@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: quick-start-builders.html 
-keywords: requirements, basic mode, read mode, automate mode 
+keywords: requirements, Basic mode, Read-only mode, Read/Write mode 
 summary: 数据库有三种不同的模式、它们具有不同的要求。 
 ---
 = 构建者快速入门
@@ -19,7 +19,7 @@ summary: 数据库有三种不同的模式、它们具有不同的要求。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 向您的帐户添加AWS凭据和权限
 [role="quick-margin-para"]
-您可以在_Basic_模式下使用工作负载工厂、而无需添加凭据即可访问AWS帐户。在_read_或_Automated_模式下向工作负载工厂添加AWS凭据可为您的工作负载工厂帐户提供创建和管理FSx for ONTAP文件系统以及部署和管理构建者项目所需的权限。
+您可以在_Basic_模式下使用工作负载工厂、而无需添加凭据即可访问AWS帐户。在_read-only _或_read/Write_模式下将AWS凭据添加到工作负载工厂、可为您的工作负载工厂帐户提供创建和管理适用于ONTAP文件系统的FSx以及部署和管理构建者项目所需的权限。
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何添加凭据和权限"^](英文)
