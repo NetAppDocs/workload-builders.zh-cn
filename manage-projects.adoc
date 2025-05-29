@@ -93,14 +93,6 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 . 选择 * 保存 * 。
 
 
-.步骤
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
-. 在“构建者”磁贴中，选择*转至“项目”页面*。
-. 在项目页面上、为要创建快照的项目选择image:icon-action.png["选项按钮"]。
-. 在显示的菜单中，选择*创建快照*。
-. 在*创建快照*对话框中，选择快照的名称，然后选择*创建*。
-
-
 
 
 == 查看项目的工作空间

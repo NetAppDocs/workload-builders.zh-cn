@@ -36,6 +36,8 @@ sidebar:
     entries:
     - title: 管理项目
       url: "/manage-projects.html"
+    - title: 保护项目
+      url: "/protect-projects.html"
     - title: 创建工作空间
       url: "/create-workspaces.html"
     - title: 使用CodeBox实现自动化

@@ -353,4 +353,10 @@
   <block id="98c15024a0a6463353585181f922a6d8" category="list-text">您需要向工作负载工厂添加具有读/写权限的AWS凭据、这意味着您将在_Read/Write_模式下对构建者使用工作负载工厂。</block>
   <block id="19e72e9857cc00ad57d29107d2e5f1fb" category="paragraph">目前不支持_Basic_模式和_read-only _模式权限。<block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
+  <block id="d585a12eb322284819964d656e33d798" category="summary">通过创建快照和克隆来保护构建者项目。</block>
+  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">为构建者项目保护BlueXP  工作负载工厂</block>
+  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">通过直接从工作负载工厂创建按需快照来保护构建者项目。项目的快照存储在创建项目时与项目关联的文件系统中。</block>
+  <block id="1c88041df602722b072eab90c31d79ca" category="section-title">创建项目快照</block>
+  <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">您可以按照以下步骤创建项目快照。</block>
+  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">保护项目</block>
 </blocks>
