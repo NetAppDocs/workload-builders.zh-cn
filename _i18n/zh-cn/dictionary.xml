@@ -136,7 +136,6 @@
   <block id="c11e3b8e48a7f97cb6cb2951dbceebea" category="section-title">构建者中的项目和工作空间</block>
   <block id="95b4a45851bf07d5318bb2244d28fcc7" category="paragraph">使用"构建程序"时、您需要创建一个项目并分配一个卷来表示您的软件环境及其项目。每次创建新版本的软件时、您都需要重新同步卷数据并创建一个项目快照、以便将卷状态标记为已知版本。项目源卷可能会进行滚动更新、并具有多个快照来标记多个版本。您可以立即将每个快照用作即时克隆、开发人员、QA或构建流程可使用的专用或共享可编辑存储库。特定软件版本环境中的克隆是一个工作空间。</block>
   <block id="5e403a4c3b152d7f395a9974ccfd4e4c" category="section-title">工作负载出厂时的操作模式</block>
-  <block id="63aab450b65202ef9696852b9418f590" category="paragraph">三种不同的操作模式-_BASIC、_Read_和_Automate、为工作负载工厂内外的部署提供了灵活的选项。在_BASIC模式下、通过代码段以零信任获得即时价值、以便在工作负载出厂时使用。在_read_和_Automate _模式下、通过增量信任获得增量价值。</block>
   <block id="eb6e457556694fbc8d187534ac1188e1" category="inline-link-macro">工作负载出厂时的操作模式</block>
   <block id="7bb004aef4b112c40189995d006d040c" category="paragraph">详细了解 <block ref="eda3e48a35318d9f8306be63aaa1ab6b" category="inline-link-macro-rx"></block>。</block>
   <block id="f63ee042c60cee6f631e4d8e0414dd00" category="section-title">借助工作负载工厂代码框实现自动化</block>
@@ -348,10 +347,6 @@
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">更新了权限术语</block>
-  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。</block>
-  <block id="5df5d0c3be037db37091a51c0b7dd2a3" category="paragraph">您可以在_Basic_模式下使用工作负载工厂、而无需添加凭据即可访问AWS帐户。在_read-only _或_read/Write_模式下将AWS凭据添加到工作负载工厂、可为您的工作负载工厂帐户提供创建和管理适用于ONTAP文件系统的FSx以及部署和管理构建者项目所需的权限。</block>
-  <block id="98c15024a0a6463353585181f922a6d8" category="list-text">您需要向工作负载工厂添加具有读/写权限的AWS凭据、这意味着您将在_Read/Write_模式下对构建者使用工作负载工厂。</block>
-  <block id="19e72e9857cc00ad57d29107d2e5f1fb" category="paragraph">目前不支持_Basic_模式和_read-only _模式权限。<block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
   <block id="d585a12eb322284819964d656e33d798" category="summary">通过创建快照和克隆来保护构建者项目。</block>
   <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">为构建者项目保护BlueXP  工作负载工厂</block>
@@ -359,4 +354,9 @@
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">创建项目快照</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">您可以按照以下步骤创建项目快照。</block>
   <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">保护项目</block>
+  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。</block>
+  <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">三种不同的操作模式 - 基本模式、只读模式和读/写模式 - 为工作负载工厂内外的部署提供了灵活的选项。在_BASIC模式下、通过代码段以零信任获得即时价值、以便在工作负载出厂时使用。在只读模式和读/写模式下，通过增量信任获得增量价值。</block>
+  <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">您可以在_Basic_模式下使用工作负载工厂、而无需添加凭据即可访问AWS帐户。以_只读_或_读/写_模式将 AWS 凭证添加到工作负载工厂，为您的工作负载工厂帐户提供创建和管理 FSx for ONTAP 文件系统以及部署和管理 Builders 项目所需的权限。</block>
+  <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">您需要将 AWS 凭证添加到具有读/写权限的工作负载工厂，这意味着您将在 Builders 的读/写模式下使用工作负载工厂。</block>
+  <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">目前不支持_基本_模式和_只读_模式权限。 <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
 </blocks>
