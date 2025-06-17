@@ -348,15 +348,29 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">更新了权限术语</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
-  <block id="d585a12eb322284819964d656e33d798" category="summary">通过创建快照和克隆来保护构建者项目。</block>
-  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">为构建者项目保护BlueXP  工作负载工厂</block>
-  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">通过直接从工作负载工厂创建按需快照来保护构建者项目。项目的快照存储在创建项目时与项目关联的文件系统中。</block>
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">创建项目快照</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">您可以按照以下步骤创建项目快照。</block>
-  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">保护项目</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。</block>
   <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">三种不同的操作模式 - 基本模式、只读模式和读/写模式 - 为工作负载工厂内外的部署提供了灵活的选项。在_BASIC模式下、通过代码段以零信任获得即时价值、以便在工作负载出厂时使用。在只读模式和读/写模式下，通过增量信任获得增量价值。</block>
   <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">您可以在_Basic_模式下使用工作负载工厂、而无需添加凭据即可访问AWS帐户。以_只读_或_读/写_模式将 AWS 凭证添加到工作负载工厂，为您的工作负载工厂帐户提供创建和管理 FSx for ONTAP 文件系统以及部署和管理 Builders 项目所需的权限。</block>
   <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">您需要将 AWS 凭证添加到具有读/写权限的工作负载工厂，这意味着您将在 Builders 的读/写模式下使用工作负载工厂。</block>
   <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">目前不支持_基本_模式和_只读_模式权限。 <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
+  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">克隆支持</block>
+  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">您现在可以在 BlueXP 工作负载工厂中为 Builders 克隆项目。克隆项目时，Builders 会根据快照创建一个新项目，其配置与原始项目相同。克隆功能对于快速创建类似项目或进行测试非常有用。您可以按照 Builders 中的说明安装新的项目克隆。</block>
+  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">管理 Builders 项目的 BlueXP 工作负载工厂版本</block>
+  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
+  <block id="f3dffc1ab287638d7073208a231fa289" category="summary">使用快照和克隆管理 Builders 项目的版本。</block>
+  <block id="b066fd241c4e6e66ece7c7a4527218cf" category="inline-link">工作负载工厂 REST API</block>
+  <block id="00b8d5f676925ae3d9b3373616e27074" category="paragraph">通过直接从工作负载工厂创建按需快照和克隆，您可以处理不同版本的 Builders 项目。项目的快照和克隆存储在项目创建时关联的文件系统中。您还可以使用<block ref="5f3a8bb73f58d34352656d43a7f37086" category="inline-link-rx"></block> 。</block>
+  <block id="527db32c9553673d65f35d38b044b7de" category="section-title">创建项目的克隆</block>
+  <block id="9a9aa1b9cb93d04e42fe69259c5b4a7e" category="paragraph">按照以下步骤从快照克隆 Builders 项目。创建克隆时，系统会创建一个新的可编辑卷来包含该克隆。</block>
+  <block id="ffd0b63d4491cd8691ad26a9457b8f6a" category="list-text">在项目页面上，选择<block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block>对于您想要克隆的项目。</block>
+  <block id="e289b398c25a5d7192096ffdb52be29f" category="list-text">在出现的菜单中，选择*创建克隆*。</block>
+  <block id="1baa1309157b6d07509f68ee5fbfebaa" category="list-text">在“创建克隆”对话框中，执行以下操作：</block>
+  <block id="c9f8a1bc51e7ad4b5dbd3b4fd54d159e" category="list-text">输入克隆的名称。</block>
+  <block id="ef9eed0d84a82b3fb511fd837da2eef7" category="paragraph">克隆的默认名称是项目名称加上当前日期和时间的后缀。</block>
+  <block id="34ec6730fd54f4c463f31402d0ea9b83" category="list-text">选择一个快照作为克隆的基础。</block>
+  <block id="c53c752e3fb8fda71f585d5e8721e833" category="paragraph">工作负载工厂创建了该项目的新克隆，并且该克隆作为新项目出现在“项目”页面上。</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
+  <block id="adbb6bf856639e7a9dcf34b22158718f" category="sidebar">管理项目版本</block>
 </blocks>
