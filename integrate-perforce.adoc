@@ -22,7 +22,7 @@ summary: 了解如何将构建者与Perforce集成。
 
 
 .结果
-Build者Web UI的BlueXP  工作负载出厂设置在P4V客户端中显示为HTML选项卡。
+NetApp Workload Factory for Builders Web UI 在 P4V 客户端中显示为 HTML 选项卡。
 
 .下一步是什么？
 link:manage-projects.html["使用迁移顾问创建Amazon EC2部署计划"](英文)

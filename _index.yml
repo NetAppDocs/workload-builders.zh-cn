@@ -1,7 +1,7 @@
 ---
 indexpage:
-  title: BlueXP  Workload Factory for Build文档
-  lead: 在BlueXP  工作负载工厂基于FSx创建和管理适用于ONTAP文件系统存储的软件开发项目。
+  title: NetApp Workload Factory for Builders 文档
+  lead: 在NetApp Workload Factory 中的 FSx for ONTAP文件系统存储之上创建和管理软件开发项目。
   tiles:
   - title: 开始使用
     links:
@@ -27,9 +27,9 @@ indexpage:
       url: "/get-help-builders.html"
   - title: 博客和社区
     links:
+    - title: NetApp控制台
+      url: https://www.netapp.com/console
+    - title: NetApp数据服务
+      url: https://www.netapp.com/data-services/
     - title: NetApp 社区
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP博客
-      url: https://bluexp.netapp.com/blog
-    - title: 云网络研讨会
-      url: https://bluexp.netapp.com/events
+      url: https://community.netapp.com/

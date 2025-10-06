@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: create-workspaces.html 
 keywords: manage, workspace, snapshot, project 
-summary: 'BlueXP  Workload Factory中的"构建者"工作空间是基于项目快照的项目的Perforce表示形式。您可以在构建者项目中创建工作空间。' 
+summary: NetApp Workload Factory for Builders 中的工作区是基于项目快照的项目的 Perforce 表示。您可以将工作区创建为 Builders 项目的一部分。 
 ---
 = 创建构建者工作空间
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'BlueXP  Workload Factory中的"构建者"工作空间是基于项目�
 
 
 [role="lead"]
-BlueXP  Workload Factory中的"构建者"工作空间是项目在特定时刻的Perforce表示形式。工作空间是基于项目快照创建的。您可以在构建者项目中创建新工作空间。您可以从Perforce UI创建工作空间。
+NetApp Workload Factory for Builders 中的工作区是特定时刻项目的 Perforce 表示。工作区是使用项目快照作为基础创建的。您可以在 Builders 项目中创建新的工作区。您可以从 Perforce UI 创建工作区。
 
 .开始之前
 确保已将Build与Perforce Helix Visual Client集成在一起。有关详细信息、请参见 link:integrate-perforce.html["将构建者与Perforce集成"^] 。
@@ -20,9 +20,10 @@ BlueXP  Workload Factory中的"构建者"工作空间是项目在特定时刻�
 . 登录到Perforce。
 . 在Perforce菜单中，选择*视图*>*工作表*。
 +
-Perforce UI中会显示工作负载出厂登录屏幕。
+Workload Factory 登录屏幕出现在 Perforce UI 中。
 
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 使用以下方式之一登录 Workload Factorylink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 。
+. 在 Builders 工作负载图块中，选择 *创建项目*。
 . 选择*创建工作空间*。
 . 在Create a workspace project页面上、提供以下内容：
 +

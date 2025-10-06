@@ -2,34 +2,34 @@
 sidebar: sidebar 
 permalink: learn-builders.html 
 keywords: software builders, development, benefits 
-summary: 适用于构建者的BlueXP  工作负载工厂是一款适用于软件构建者的快速构建环境创建工具。 
+summary: NetApp Workload Factory for Builders 是一款面向软件构建者的快速构建环境创建工具。 
 ---
-= 了解适用于构建者的BlueXP  工作负载工厂
+= 了解NetApp Workload Factory for Builders
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-适用于构建者的BlueXP  工作负载工厂是一款适用于软件构建者的快速构建环境创建工具。它可以快速设置个人开发环境、节省时间并为开发人员提供自助服务、同时支持开发运营团队保持对基础架构的控制。使用"构建者"、软件开发人员可以快速创建工作空间、而无需专门的数据存储或对开发基础架构的了解。
+NetApp Workload Factory for Builders 是一款面向软件构建者的快速构建环境创建工具。它可以快速设置个人开发环境，节省时间并为开发人员提供自助服务，同时使 DevOps 团队能够保留对基础设施的控制。使用 Builders，软件开发人员可以快速创建工作区，而无需专门的数据存储或了解开发基础设施。
 
 
 
-== 什么是适用于构建者的BlueXP  工作负载工厂？
+== NetApp Workload Factory for Builders 是什么？
 
-适用于构建者的BlueXP  工作负载工厂旨在简化开发人员管理不同版本软件并与之交互的方式。构建者可与Perforce Helix Core无缝集成、提供软件版本的即时克隆、为开发、QA和CI/CD流程创建随时可用的工作空间。
+NetApp Workload Factory for Builders 旨在简化开发人员管理和与不同版本软件交互的方式。  Builders 与 Perforce Helix Core 无缝集成，提供软件版本的即时克隆，为开发、QA 和 CI/CD 流程创建可立即使用的办公空间。
 
 借助"构建者"、您可以轻松创建项目并分配代表您的软件环境及其项目的卷。在更新软件时、您可以为卷创建快照、从而捕获软件在该时刻的状态。这意味着您可以即时访问任何版本的软件、而无需与版本控制系统重新同步、从而节省宝贵的时间和资源。
 
 通过利用ONTAP的快照和克隆功能、构建者可以改进您的开发工作流、从而快速访问多个版本的软件、缩短开发周期并缩短上市时间。
 
-有关工作负载工厂的详细信息，请参见link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["工作负载出厂概述"^]。
+有关 Workload Factory 的更多信息，请参阅link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["工作负载工厂概述"^]。
 
 
 
-== BlueXP  工作负载出厂时提供构建程序功能
+== NetApp Workload Factory for Builders 功能
 
-适用于构建者的BlueXP  工作负载工厂提供以下功能：
+NetApp Workload Factory for Builders 提供以下功能：
 
 * 创建、编辑和删除项目
 * 为定义的软件版本创建快照
@@ -48,20 +48,20 @@ summary: 适用于构建者的BlueXP  工作负载工厂是一款适用于软�
 
 
 
-== 工作负载出厂时的操作模式
+== 工作负载工厂中的操作模式
 
-三种不同的操作模式 - 基本模式、只读模式和读/写模式 - 为工作负载工厂内外的部署提供了灵活的选项。在_BASIC模式下、通过代码段以零信任获得即时价值、以便在工作负载出厂时使用。在只读模式和读/写模式下，通过增量信任获得增量价值。
+三种不同的操作模式 - _基本_、_只读_和_读/写_ - 为工作负载工厂内部和外部的部署提供了灵活的选项。使用可在 Workload Factory 外部使用的代码片段，在基本模式下以零信任获得直接价值。在_只读_和_读/写_模式下通过增量信任获取增量值。
 
-详细了解 link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["工作负载出厂时的操作模式"^]。
+详细了解link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["工作负载工厂中的操作模式"^] 。
 
 
 
-== 借助工作负载工厂代码框实现自动化
+== 使用 Workload Factory Codebox 实现自动化
 
 Workload Factory通过_Codebox_引入了内置自动化功能。CodeBox具有以下自动化优势：
 
 * *代码段生成*：基础架构即代码(IAC)代码段是在资源创建期间生成的、用于与现有业务流程无缝集成。
-* *基础架构即代码联合试点*：Codebox是一种基础架构即代码(Infrastructure as Code、IAC)联合试点、可帮助开发人员和开发运营团队生成代码以执行工作负载工厂支持的任何操作。
+* *基础设施即代码副驾驶*：Codebox 是一个基础设施即代码 (IaC) 副驾驶，可帮助开发人员和 DevOps 生成代码来执行 Workload Factory 支持的任何操作。
 * *代码查看器和自动化目录*：代码盒提供用于快速分析自动化的代码查看器和用于快速未来重复使用的自动化目录。
 
 
@@ -69,17 +69,17 @@ Workload Factory通过_Codebox_引入了内置自动化功能。CodeBox具有以
 
 == 成本
 
-使用工作负载工厂的"构建者"功能无需任何成本。
+使用 Workload Factory 的 Builders 功能无需任何费用。
 
 
 
 == 许可
 
-使用工作负载工厂的"构建者"功能无需从NetApp获得特殊许可证。
+无需获得NetApp的特殊许可即可使用 Workload Factory 的 Builders 功能。
 
 
 
-=== 支持的区域
+== 区域
 
 在支持FSx for ONTAP的所有商业区域中、均支持构建程序。 https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/["查看支持的 Amazon 地区。"^]
 
@@ -97,4 +97,4 @@ Workload Factory通过_Codebox_引入了内置自动化功能。CodeBox具有以
 
 适用于NetApp ONTAP 的Amazon FSX是AWS第一方解决方案。如有与您的FSx for ONTAP文件系统、基础架构或使用此服务的任何解决方案相关的问题或技术支持问题、请使用AWS管理控制台中的支持中心创建AWS支持案例。选择 "FSX for ONTAP " 服务和相应的类别。提供创建 AWS 支持案例所需的其余信息。
 
-有关工作负载工厂或工作负载工厂应用程序和服务的一般问题，请参见link:get-help-builders.html["获取有关工作负载工厂构建商的帮助"]。
+有关 Workload Factory 或 Workload Factory 应用程序和服务的一般问题，请参阅link:get-help-builders.html["获取 Workload Factory Builders 的帮助"]。

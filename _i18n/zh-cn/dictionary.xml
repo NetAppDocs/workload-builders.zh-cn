@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">构建者工作负载初始版本</block>
-  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。</block>
   <block id="08c1bf6e31ef174ff608b5eb3d282063" category="summary">您可以使用CodeBox自动执行主机部署、数据库创建等操作。</block>
   <block id="2ea6aca63123969c1931cd33bf4619a0" category="doc">使用CodeBox实现自动化</block>
-  <block id="8f21210d3f74acd90334ba76bc90791c" category="paragraph">您可以使用CodeBox自动执行项目创建和数据保护操作。CodeBox是一种基础架构即代码(Infrastructure as Code、IAC)联合试点、可帮助您生成代码以执行工作负载工厂支持的任何操作。</block>
   <block id="bd282943a337f4287ca0d70f9a836261" category="inline-link-macro">CodeBox自动化</block>
   <block id="7954c9f6b266222ad558a397a97a8531" category="paragraph">详细了解 <block ref="d6a91743d83ea88006a3d66c27289981" category="inline-link-macro-rx"></block> 以及如何使用它。</block>
-  <block id="d320e674d0ba312d297842a73dcb793d" category="summary">BlueXP  Workload Factory中的"构建者"工作空间是基于项目快照的项目的Perforce表示形式。您可以在构建者项目中创建工作空间。</block>
   <block id="5638176be5dd4e400efc77338868cf55" category="doc">创建工作空间</block>
-  <block id="bed4b07913cf7b77e0bbaa749c305b16" category="paragraph">BlueXP  Workload Factory中的"构建者"工作空间是项目在特定时刻的Perforce表示形式。工作空间是基于项目快照创建的。您可以在构建者项目中创建新工作空间。您可以从Perforce UI创建工作空间。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
   <block id="99deb87866ad46d767c9f099cdd1bc32" category="inline-link-macro">将构建者与Perforce集成</block>
   <block id="6ada1658939e3e0c0066d917e1966e5b" category="paragraph">确保已将Build与Perforce Helix Visual Client集成在一起。有关详细信息、请参见 <block ref="1d27073a25bfd58e633b69f8b5d54945" category="inline-link-macro-rx"></block> 。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="da8298c164d94d09143ffe89648c5d3c" category="list-text">登录到Perforce。</block>
   <block id="0d8bfed2e411f7c8b7dff958995d4b8d" category="list-text">在Perforce菜单中，选择*视图*&gt;*工作表*。</block>
-  <block id="cef1af30f6b4f7b7b4fb4dfaebdfd4ed" category="paragraph">Perforce UI中会显示工作负载出厂登录屏幕。</block>
   <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">控制台体验</block>
-  <block id="eb788a90862825cc147ed3f85612a8cc" category="list-text">使用其中一个登录到工作负载工厂<block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>。</block>
   <block id="e779f93b54eb654988c0421af9a49154" category="list-text">选择*创建工作空间*。</block>
   <block id="7e8ef7f44044b6d0f74789559287feea" category="list-text">在Create a workspace project页面上、提供以下内容：</block>
   <block id="84e0437fbb34f7df37fde5cd3164b871" category="list-text">选择要用作工作空间基础的快照。</block>
@@ -28,11 +22,9 @@
   <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">选择 * 创建 * 。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
   <block id="2d8f6486127f82c2bea30c11d743290d" category="paragraph">此时将创建工作空间、并显示在Workspaces"页面上的工作空间列表中。</block>
-  <block id="42342e81c625fd1c1141771fe2b6b202" category="summary">NetApp以多种方式为工作负载工厂及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="6a7b2c9c4cec65ad972b108fa0a1192b" category="section-title">获取FSx for ONTAP支持</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">适用于 ONTAP 的 Amazon FSX</block>
-  <block id="9d06990508d25d367d9158c6558eb9c8" category="paragraph"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="35f9849ffdd809bda11d0fc56e1e3583" category="paragraph">要获得特定于Workload Factory及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
@@ -45,7 +37,6 @@
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
-  <block id="aadd86a3fadf19221852692c6e4adc2f" category="paragraph">选择此选项将打开BlueXP控制台一个新的浏览器选项卡并加载支持信息板。</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人通话，请选择*呼叫我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择*创建案例*向NetApp支持专家开立TT：</block>
@@ -63,12 +54,10 @@
   <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">要查看支持案例的历史记录，您可以选择*设置&gt;时间线*并查找名为“创建支持案例”的操作。最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
-  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与BlueXP帐户序列号(即960xxxx)或工作环境序列号。您可以使用以下选项之一寻求帮助：</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">请通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动的和已解决的支持案例。您可以管理与您的NSS帐户和公司关联的案例。</block>
   <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理以预览形式提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
   <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">页面顶部的案例管理信息板提供了两个视图：</block>
@@ -78,8 +67,6 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
-  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">选择*案例管理*，如果出现提示，请将您的NSS帐户添加到BlueXP。</block>
-  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
   <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在“*组织案例*”下，选择“*查看*”以查看与贵公司关联的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
@@ -107,25 +94,14 @@
   <block id="78b6e5d76f833be63e70a3cd5925a698" category="list-text">选择*导入HTML选项卡*。</block>
   <block id="e0ca1ffa7a7ff194727a7c27c1091abd" category="list-text">选择P4V集成XML文件，然后选择*Import*。</block>
   <block id="8021afdc93837bf89b4d2209922664f5" category="list-text">转到*View*&gt;*Workload Factory。</block>
-  <block id="ef61ce81e862e6ffc948f3f04f398a28" category="paragraph">Build者Web UI的BlueXP  工作负载出厂设置在P4V客户端中显示为HTML选项卡。</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">下一步是什么？</block>
   <block id="bf9f27fc21322ff6302a870d86e2e722" category="inline-link-macro">使用迁移顾问创建Amazon EC2部署计划</block>
   <block id="87ca10f516e69b36084d36d28809162e" category="paragraph"><block ref="a5520c5bc95caf26ab1a143ec38e8340" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
   <block id="406b6743d6cb27b667d9600f28f51fe8" category="section-title">需要操作员权限</block>
-  <block id="0e82925f3b5c46a20fb9c532864e2c43" category="paragraph">BlueXP  Workload Factory for Build需要操作员权限才能正常运行。</block>
-  <block id="fd940c262dc5e446ae0a0410b7142d79" category="summary">适用于构建者的BlueXP  工作负载工厂是一款适用于软件构建者的快速构建环境创建工具。</block>
-  <block id="978a9377e8509d60456ddc9a632751bf" category="doc">了解适用于构建者的BlueXP  工作负载工厂</block>
-  <block id="48761a7a1c7cf21df76de124e4bf468a" category="paragraph">适用于构建者的BlueXP  工作负载工厂是一款适用于软件构建者的快速构建环境创建工具。它可以快速设置个人开发环境、节省时间并为开发人员提供自助服务、同时支持开发运营团队保持对基础架构的控制。使用"构建者"、软件开发人员可以快速创建工作空间、而无需专门的数据存储或对开发基础架构的了解。</block>
-  <block id="a177bea5834b437a33419c326a612169" category="section-title">什么是适用于构建者的BlueXP  工作负载工厂？</block>
-  <block id="30d6cd98984294ee29a58d7bc3ecd9bb" category="paragraph">适用于构建者的BlueXP  工作负载工厂旨在简化开发人员管理不同版本软件并与之交互的方式。构建者可与Perforce Helix Core无缝集成、提供软件版本的即时克隆、为开发、QA和CI/CD流程创建随时可用的工作空间。</block>
   <block id="acf699fcbcfc00b42704c6549f7573ef" category="paragraph">借助"构建者"、您可以轻松创建项目并分配代表您的软件环境及其项目的卷。在更新软件时、您可以为卷创建快照、从而捕获软件在该时刻的状态。这意味着您可以即时访问任何版本的软件、而无需与版本控制系统重新同步、从而节省宝贵的时间和资源。</block>
   <block id="69ced5671d5d5173c5ec8a09c78e6c22" category="paragraph">通过利用ONTAP的快照和克隆功能、构建者可以改进您的开发工作流、从而快速访问多个版本的软件、缩短开发周期并缩短上市时间。</block>
-  <block id="70cb57a8d5d75d8762d6b082d319dec7" category="inline-link-macro">工作负载出厂概述</block>
-  <block id="092d6885b847467d6999738db9651764" category="paragraph">有关工作负载工厂的详细信息，请参见<block ref="f3c978a33f5f67b2b7f311b0ac6d0acd" category="inline-link-macro-rx"></block>。</block>
-  <block id="f68c85d3ca9f728a18e779d0def20ddd" category="section-title">BlueXP  工作负载出厂时提供构建程序功能</block>
-  <block id="28bbd42671616b45b56f40b0f97cd071" category="paragraph">适用于构建者的BlueXP  工作负载工厂提供以下功能：</block>
   <block id="81271ea88c556e646a83ae8cb6874621" category="list-text">创建、编辑和删除项目</block>
   <block id="235bfdfadd266ee4aaf8ed4ef7af3c9c" category="list-text">为定义的软件版本创建快照</block>
   <block id="2b1f12fc65d9945253b8cdbd567854de" category="list-text">创建和删除工作空间(基于克隆)</block>
@@ -135,19 +111,11 @@
   <block id="46ba10149e48f982955997b9c27c31a0" category="list-text">与Perforce等版本控制系统集成</block>
   <block id="c11e3b8e48a7f97cb6cb2951dbceebea" category="section-title">构建者中的项目和工作空间</block>
   <block id="95b4a45851bf07d5318bb2244d28fcc7" category="paragraph">使用"构建程序"时、您需要创建一个项目并分配一个卷来表示您的软件环境及其项目。每次创建新版本的软件时、您都需要重新同步卷数据并创建一个项目快照、以便将卷状态标记为已知版本。项目源卷可能会进行滚动更新、并具有多个快照来标记多个版本。您可以立即将每个快照用作即时克隆、开发人员、QA或构建流程可使用的专用或共享可编辑存储库。特定软件版本环境中的克隆是一个工作空间。</block>
-  <block id="5e403a4c3b152d7f395a9974ccfd4e4c" category="section-title">工作负载出厂时的操作模式</block>
-  <block id="eb6e457556694fbc8d187534ac1188e1" category="inline-link-macro">工作负载出厂时的操作模式</block>
-  <block id="7bb004aef4b112c40189995d006d040c" category="paragraph">详细了解 <block ref="eda3e48a35318d9f8306be63aaa1ab6b" category="inline-link-macro-rx"></block>。</block>
-  <block id="f63ee042c60cee6f631e4d8e0414dd00" category="section-title">借助工作负载工厂代码框实现自动化</block>
   <block id="e8d2772773d0b560ee5057d9b413b85b" category="paragraph">Workload Factory通过_Codebox_引入了内置自动化功能。CodeBox具有以下自动化优势：</block>
   <block id="f1214f35af0ff103c79251078e169af6" category="list-text">*代码段生成*：基础架构即代码(IAC)代码段是在资源创建期间生成的、用于与现有业务流程无缝集成。</block>
-  <block id="dbebcf8b009c3066f6c2e41d9d151db3" category="list-text">*基础架构即代码联合试点*：Codebox是一种基础架构即代码(Infrastructure as Code、IAC)联合试点、可帮助开发人员和开发运营团队生成代码以执行工作负载工厂支持的任何操作。</block>
   <block id="d8135e6fae6748dcba5e9d108c9af427" category="list-text">*代码查看器和自动化目录*：代码盒提供用于快速分析自动化的代码查看器和用于快速未来重复使用的自动化目录。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="2089c6b820b86b20a7f7888582f8fdc1" category="paragraph">使用工作负载工厂的"构建者"功能无需任何成本。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">许可</block>
-  <block id="1da0e8d0baff6b19bb0cc4aed36be214" category="paragraph">使用工作负载工厂的"构建者"功能无需从NetApp获得特殊许可证。</block>
-  <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支持的区域</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">查看支持的 Amazon 地区。</block>
   <block id="762e82c7fc7a9b2f0a9502b49f71b96b" category="paragraph">在支持FSx for ONTAP的所有商业区域中、均支持构建程序。<block ref="54b85ac4e794c565ea8c7aad421e6e67" category="inline-link-rx"></block></block>
   <block id="186585d175a4fff1722ac82a5520c584" category="paragraph">不支持以下AWS区域：</block>
@@ -157,8 +125,6 @@
   <block id="151ef168e17772f7a361db78a0c86552" category="list-text">云的绝密</block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">获取帮助</block>
   <block id="da444b283df699667b2316206972bdfe" category="paragraph">适用于NetApp ONTAP 的Amazon FSX是AWS第一方解决方案。如有与您的FSx for ONTAP文件系统、基础架构或使用此服务的任何解决方案相关的问题或技术支持问题、请使用AWS管理控制台中的支持中心创建AWS支持案例。选择 "FSX for ONTAP " 服务和相应的类别。提供创建 AWS 支持案例所需的其余信息。</block>
-  <block id="49621bd29ae42da955d4a0c135d19e86" category="inline-link-macro">获取有关工作负载工厂构建商的帮助</block>
-  <block id="65dd0f78a3b72996981e906ad877d452" category="paragraph">有关工作负载工厂或工作负载工厂应用程序和服务的一般问题，请参见<block ref="218312b2d9c914b9d139ff8e26e1dc71" category="inline-link-macro-rx"></block>。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
@@ -177,11 +143,7 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
-  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作负载工厂</block>
-  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="727a3a4d7dff6cc4c7c2079c82737b77" category="summary">在工作负载工厂管理数据库的Microsoft SQL Server实例。</block>
   <block id="f1c3944d872285ff8f265eae2a58242a" category="doc">管理构建者项目</block>
-  <block id="8ccab38a4433bff5ae8b91cb0d8cd0dd" category="paragraph">您可以管理"构建者"项目、以控制如何在BlueXP  的"构建者工作负载"工厂中为每个项目管理代码和项目。</block>
   <block id="be86ca474df5e14056bc0f20d2cdb767" category="section-title">创建项目</block>
   <block id="18f61d0eac6bce18a43123d572f97f9c" category="paragraph">您可以创建新的构建者项目、以便对代码和项目利用Amazon FSx for NetApp ONTAP文件系统的数据保护功能。</block>
   <block id="782161a6e01d95a8a5860f840ff2d8ff" category="list-text">在“构建者”磁贴中，选择*Create project*。</block>
@@ -197,7 +159,6 @@
   <block id="aac901acde2d9c0b975f3df90da3cc01" category="list-text">*选择卷*：选择要存储项目的卷；构建者使用此卷作为软件存储库。</block>
   <block id="73699ce7a6810990bfdfcd9d66248475" category="paragraph">您只能选择配置为NFS共享的卷。</block>
   <block id="54707d044b3f7dbd9190e90c0c26da4b" category="list-text">*操作策略*：为项目克隆提供限制：</block>
-  <block id="a809216c7c46f6741eb4e0a90cc4cd09" category="list-text">*最大保留天数*：输入克隆应保留的最大天数。在此天数后、工作负载出厂将删除此克隆。</block>
   <block id="1b50a415b7236d521d4caff453dc9d8c" category="list-text">*每个用户或组的最大克隆数*：输入可为用户或组配置的最大克隆数。</block>
   <block id="1aa5ccae7f0dcce26f22d0ad5c7ad270" category="list-text">*以GiB为单位的最大克隆大小*：输入项目克隆的最大大小(以GiB为单位)。</block>
   <block id="60df076fa27b46615c02a69a695d47fa" category="list-text">*访问策略*：明确授予特定用户或组项目访问权限：</block>
@@ -207,7 +168,6 @@
   <block id="601e4c99c321f541ac2b8eb0510576a5" category="paragraph">例如：<block ref="6edf26f6e0badff12fca32b16db38bf2" prefix=" " category="inline-code"></block></block>
   <block id="48ddfff7668ec69b4b4aba6cb8178ea2" category="paragraph">此时将创建项目、并显示在"项目"页面上的项目列表中。</block>
   <block id="5adc04409266bb451a371fe1fb4271b5" category="section-title">查看现有项目</block>
-  <block id="c59f453c07a9cb3b6a8798e686127634" category="paragraph">您可以按照以下步骤查看在BlueXP  Workload Factory中为构建者创建的现有项目。</block>
   <block id="782a66c1109cc7c69c203553b031a2c9" category="list-text">在“构建者”磁贴中，选择*转至“项目”页面*。</block>
   <block id="8d316038ebf1829df9f37bc4382f5c99" category="list-text">查看"项目"页面上列出的现有项目。</block>
   <block id="83879b61fc6dcf133f90392c69f25d38" category="section-title">编辑项目</block>
@@ -234,9 +194,6 @@
   <block id="6db8b72b7bbe43f04d2b9ad1751e1fe6" category="doc">构建者快速入门</block>
   <block id="0a900739ea1484f6a212a7ceda0d619c" category="paragraph">开始创建构建者项目。管理员和团队主管可以使用"构建者"来管理开发人员团队的项目和工作空间。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
-  <block id="2fd605c5fdf1d57ba01b68838e68dc27" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>登录到工作负载工厂</block>
-  <block id="d9eebdefd5feceb309eadc305ce81e6f" category="inline-link">在Workload Factory中设置一个帐户</block>
-  <block id="113933a0a6b3eb57d22f707e6384bd49" category="paragraph">您需要<block ref="5eb9de2715b74ed434f03d8a9fef9b70" category="inline-link-rx"></block>使用其中一个登录<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block>。</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
   <block id="b36a952e38561cb86fdb6a473044fce0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 向您的帐户添加AWS凭据和权限</block>
   <block id="fb391f4cf6483b8b419032dc188bd9d8" category="inline-link">了解如何添加凭据和权限</block>
@@ -254,11 +211,9 @@
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步行动</block>
   <block id="88c42892f9e1c911a29a7014b69dfc2f" category="inline-link-macro">创建项目</block>
   <block id="7467d1fcb66c06648d2208ce64162c0d" category="paragraph">现在、您可以<block ref="48146dbc982d6a3ba456c1f10aacb1a9" category="inline-link-macro-rx"></block>为开发人员团队快速高效地管理代码和项目。</block>
-  <block id="bcb714c2eb89c8ef02579a621f95e48c" category="summary">在开始使用适用于构建者的BlueXP  工作负载工厂之前、请确保已正确设置工作负载工厂和AWS。其中包括拥有AWS登录凭据、已部署的FSx for ONTAP文件系统等。</block>
   <block id="7860bfc83777aac923d73f1002162f9d" category="doc">构建者要求</block>
   <block id="7881e5952d93ca1a1396ec11c08fa645" category="list-text">工作负载出厂登录和帐户</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="list-text">AWS 凭据和权限</block>
-  <block id="5145374f219e1c177ab5588a5344aa6e" category="inline-link">了解如何将AWS凭据添加到工作负载工厂</block>
   <block id="e48bc5875c01dd007b7b2a370e879cde" category="list-text">FSx for ONTAP文件系统</block>
   <block id="c16810aa96ec44a060863610996db3f6" category="list-text">对于ONTAP文件系统、至少需要一个FSx：</block>
   <block id="cf935c2a5823110e8a09c3289b67514a" category="list-text">构建者将使用该文件系统来存储您创建的项目和工作空间。</block>
@@ -270,30 +225,20 @@
   <block id="1f44141a0f383810dac8c932e0d76754" category="list-text">您需要考虑要应用于此部署中的AWS资源的标记键/值对(可选)。</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">了解如何部署和管理FSx for ONTAP文件系统</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="056634bec4a153903ebb9b769277f4d7" category="summary">要向NetApp技术支持创建支持案例、您需要先将NetApp支持站点帐户添加到工作负载工厂、然后注册支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
-  <block id="d7e4bb081bf4ec4814d83edcfbdb8b96" category="paragraph">注册您的帐户ID支持订阅(您的20位960xxxxxxxxx序列号位于BlueXP的支持资源页面上)将作为您的单个支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
-  <block id="f9e05c2b383e3f11e3b4bebbe8952225" category="paragraph">通过注册、您可以创建支持服务单和自动生成案例等功能。要完成注册、请按如下所述将NetApp 支持站点(NSS)帐户添加到BlueXP中。</block>
   <block id="856edc4caec68fece6859c4be9360f3c" category="section-title">注册您的帐户以获得NetApp支持</block>
-  <block id="2d6573b6ae4c51dc24e58109473f2490" category="paragraph">要注册支持并激活支持授权、您帐户中的一个用户必须将NetApp支持站点帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
-  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
-  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在BlueXP控制台的右上角、选择设置图标、然后选择*凭据*。</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭据*。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择帮助图标，然后选择*Support*。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">“资源”页面应显示您的帐户已注册支持。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
   <block id="fa7897454f637026faa3e00ccbfec239" category="paragraph"><block ref="fa7897454f637026faa3e00ccbfec239" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">请注意、其他BlueXP用户如果没有将NetApp 支持站点 帐户与其BlueXP登录关联、则不会看到此相同的支持注册状态。但是、这并不意味着您的BlueXP帐户未注册支持。只要帐户中有一个用户执行了这些步骤、您的帐户即已注册。</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
-  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是现有许可证和序列号但拥有_no_ nss帐户的现有NetApp客户、则需要创建一个NSS帐户并将其与BlueXP登录关联。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 支持站点 用户注册表</block>
   <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">完成以创建NetApp支持站点帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别、通常为* NetApp客户/最终用户*。</block>
-  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
-  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">通过完成下的步骤，将新的NSS帐户与BlueXP登录相关联 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
   <block id="f5d7029ed18f998c0a9d780b2554e538" category="list-text">从支持资源页面中找到您的帐户ID序列号。</block>
@@ -309,12 +254,7 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">请务必复制上面用于序列号字段的帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
-  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">拥有NetApp支持站点帐户后，请完成下的步骤，将该帐户与BlueXP登录相关联 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
-  <block id="b695d69d992cf41ed6cb2eae330d2d9a" category="summary">了解数据库工作负载工厂的新增功能。</block>
-  <block id="b3c5650c2bbe2cf7e9b39aa77519169b" category="paragraph">了解工作负载工厂的"构建者"功能的新增功能。</block>
   <block id="5c8df45cbe01191b205c30373b7e5739" category="section-title">2024年12月1日</block>
-  <block id="77ecc188e3683ff647e9350cea980265" category="sidebar">在BlueXP  工作负载工厂基于FSx创建和管理适用于ONTAP文件系统存储的软件开发项目。</block>
-  <block id="4d35766d2a6ab8f1b3cb40a730f9b731" category="sidebar">BlueXP  Workload Factory for Build文档</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">开始使用</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="360209a9194a7a144c60dc66473ddb6e" category="sidebar">了解构建者</block>
@@ -329,39 +269,14 @@
   <block id="eea1c8722623804ecbfedb5877fe1fe0" category="doc">使用CodeBox自动执行构建者任务</block>
   <block id="d9c7cb0c1a45fbc72de246fdddd7728b" category="doc">创建构建者工作空间</block>
   <block id="15db2e3e50e69780a1a62157fd7d29fa" category="doc">获取有关构建者的帮助</block>
-  <block id="811bf57d4ae533110508a5fcc7be0276" category="doc">适用于构建者的BlueXP  工作负载工厂的已知限制</block>
-  <block id="827e97c0eb67d11c51fdab3d7de7cc47" category="doc">有关BlueXP  Workload Factory for Builder的法律声明</block>
-  <block id="f326a729fb5b859cb51ee1e03ade5a34" category="doc">注册以获得BlueXP  Workload Factory for Build的支持</block>
-  <block id="4f2bbf87005596e383f28ae211c4bd94" category="doc">适用于构建者的BlueXP  工作负载工厂的新增功能</block>
-  <block id="b6a4501cc05e54e2e5a513c3b552183a" category="paragraph">NetApp以多种方式为BlueXP  工作负载工厂及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
-  <block id="261966eaf033c38f6934f2c8fc36d79c" category="paragraph">有关FSx for ONTAP、其基础架构或任何使用该服务的解决方案的技术支持、请参阅该产品的工作负载工厂文档中的"获得帮助"。</block>
-  <block id="5b49df4e58e2a4750acd8bfa8687ccd6" category="paragraph">您当前正在查看的工作负载工厂文档。</block>
-  <block id="ba51332e265e54eb4295d6e7d057bad8" category="paragraph">搜索工作负载工厂知识库、查找有助于解决问题的文章。</block>
-  <block id="fc3e8f3c2017c33d444d483913a485ba" category="paragraph">加入工作负载工厂社区、关注正在进行的讨论或创建新的讨论。</block>
-  <block id="ffa18fada5deeeb1e533786297855e7d" category="paragraph">要使用*创建案例*功能，您必须先注册支持。请将您的NetApp支持站点凭据与您的工作负载出厂登录名关联起来。<block ref="d9fea24984986beabae03291c4b721de" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="e13a5649dfef3a1c76c4be8e463226d7" category="list-text">在工作负载工厂控制台的右上角，选择*Help &gt; Support*。</block>
-  <block id="ce638fcfafd4d79a49524062225d7fbc" category="paragraph">要获得特定于BlueXP  工作负载工厂及其存储解决方案和服务的技术支持、需要注册支持。您必须从BlueXP  控制台注册获取支持、该控制台是工作负载出厂时单独的基于Web的控制台。</block>
-  <block id="2cbcc262b0a39ec19c5f69bffccb70fb" category="paragraph">注册获取支持不会为云提供商文件服务启用NetApp支持。有关与云提供商文件服务、其基础架构或任何使用该服务的解决方案相关的技术支持、请参阅该产品的工作负载工厂文档中的"获得帮助"。</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
-  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP博客</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">更新了权限术语</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025年5月4日</block>
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">创建项目快照</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">您可以按照以下步骤创建项目快照。</block>
-  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。</block>
-  <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">三种不同的操作模式 - 基本模式、只读模式和读/写模式 - 为工作负载工厂内外的部署提供了灵活的选项。在_BASIC模式下、通过代码段以零信任获得即时价值、以便在工作负载出厂时使用。在只读模式和读/写模式下，通过增量信任获得增量价值。</block>
-  <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">您可以在_Basic_模式下使用工作负载工厂、而无需添加凭据即可访问AWS帐户。以_只读_或_读/写_模式将 AWS 凭证添加到工作负载工厂，为您的工作负载工厂帐户提供创建和管理 FSx for ONTAP 文件系统以及部署和管理 Builders 项目所需的权限。</block>
-  <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">您需要将 AWS 凭证添加到具有读/写权限的工作负载工厂，这意味着您将在 Builders 的读/写模式下使用工作负载工厂。</block>
-  <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">目前不支持_基本_模式和_只读_模式权限。 <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">克隆支持</block>
-  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">您现在可以在 BlueXP 工作负载工厂中为 Builders 克隆项目。克隆项目时，Builders 会根据快照创建一个新项目，其配置与原始项目相同。克隆功能对于快速创建类似项目或进行测试非常有用。您可以按照 Builders 中的说明安装新的项目克隆。</block>
-  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">管理 Builders 项目的 BlueXP 工作负载工厂版本</block>
-  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="f3dffc1ab287638d7073208a231fa289" category="summary">使用快照和克隆管理 Builders 项目的版本。</block>
-  <block id="b066fd241c4e6e66ece7c7a4527218cf" category="inline-link">工作负载工厂 REST API</block>
-  <block id="00b8d5f676925ae3d9b3373616e27074" category="paragraph">通过直接从工作负载工厂创建按需快照和克隆，您可以处理不同版本的 Builders 项目。项目的快照和克隆存储在项目创建时关联的文件系统中。您还可以使用<block ref="5f3a8bb73f58d34352656d43a7f37086" category="inline-link-rx"></block> 。</block>
   <block id="527db32c9553673d65f35d38b044b7de" category="section-title">创建项目的克隆</block>
   <block id="9a9aa1b9cb93d04e42fe69259c5b4a7e" category="paragraph">按照以下步骤从快照克隆 Builders 项目。创建克隆时，系统会创建一个新的可编辑卷来包含该克隆。</block>
   <block id="ffd0b63d4491cd8691ad26a9457b8f6a" category="list-text">在项目页面上，选择<block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block>对于您想要克隆的项目。</block>
@@ -373,4 +288,94 @@
   <block id="c53c752e3fb8fda71f585d5e8721e833" category="paragraph">工作负载工厂创建了该项目的新克隆，并且该克隆作为新项目出现在“项目”页面上。</block>
   <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
   <block id="adbb6bf856639e7a9dcf34b22158718f" category="sidebar">管理项目版本</block>
+  <block id="323dd81fcb961ffe9d54fa99152c0e51" category="paragraph">BlueXP Workload Factory for Builders 简化了软件版本的使用和访问，无需自定义工具或脚本。它使您能够将软件版本作为与 Perforce Helix Core 集成的即时克隆来使用，作为开发过程的便捷工作区，从而节省时间和资源。</block>
+  <block id="962abee1b74c5d5ab5f9bd0c47cbb068" category="paragraph">Workload Factory 用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。</block>
+  <block id="2755dd60db288e29e6f06b54dc696d1e" category="paragraph">您现在可以在BlueXP Workload Factory for Builders 中克隆一个项目。当您克隆一个项目时，Builders 会从快照创建一个新项目，其配置与原始项目相同。克隆对于快速创建类似项目或用于测试目的很有用。您可以按照 Builders 中的说明安装新的项目克隆。</block>
+  <block id="2c66253b5627d775e178720764bbf7bf" category="inline-link">管理BlueXP Workload Factory for Builders 项目的版本</block>
+  <block id="5cfea31bf03490b6d93b9e2e79a99599" category="paragraph"><block ref="5cfea31bf03490b6d93b9e2e79a99599" category="inline-link-rx"></block></block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory现为NetApp工作负载工厂</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。</block>
+  <block id="971492a505365b895740e7ae6a7e5a70" category="paragraph">您可以使用 Codebox 自动执行项目创建和数据保护操作。  Codebox 是一个基础设施即代码 (IaC) 副驾驶，可帮助您生成代码来执行 Workload Factory 支持的任何操作。</block>
+  <block id="da5fff8c34009cf753687803ae77aec7" category="summary">NetApp Workload Factory for Builders 中的工作区是基于项目快照的项目的 Perforce 表示。您可以将工作区创建为 Builders 项目的一部分。</block>
+  <block id="84dc79ee83ab84e9c21af5858c6ce1c1" category="paragraph">NetApp Workload Factory for Builders 中的工作区是特定时刻项目的 Perforce 表示。工作区是使用项目快照作为基础创建的。您可以在 Builders 项目中创建新的工作区。您可以从 Perforce UI 创建工作区。</block>
+  <block id="905278c1db6bd8497d1b33523cff6fc7" category="paragraph">Workload Factory 登录屏幕出现在 Perforce UI 中。</block>
+  <block id="3016bef0785dbf8a30dcf950a617dad6" category="list-text">使用以下方式之一登录 Workload Factory<block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block> 。</block>
+  <block id="6f1aafe326c7d4f5983090513c9f458c" category="list-text">在 Builders 工作负载图块中，选择 *创建项目*。</block>
+  <block id="3c6efe0ce159fb5b8ee4882bcf3ad973" category="summary">NetApp通过多种方式为 Workload Factory 及其云服务提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
+  <block id="4435b263dd1a35bcd8dfda050db92b3b" category="paragraph">有关 FSx for ONTAP、其基础架构或任何使用该服务的解决方案的技术支持，请参阅该产品的 Workload Factory 文档中的“获取帮助”。</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="paragraph"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="d935525f4850c4638cbf48ae53fb4686" category="paragraph">您当前正在查看的 Workload Factory 文档。</block>
+  <block id="ba6274b9c9d1f81bb3a648fa289986b8" category="paragraph">搜索 Workload Factory 知识库以查找有助于解决问题的文章。</block>
+  <block id="7faef90df03399696ba9d4815b37171a" category="paragraph">加入 Workload Factory 社区以关注正在进行的讨论或创建新的讨论。</block>
+  <block id="a12ea39ddf1c98adfd7f751299705efa" category="paragraph">要使用*创建案例*功能，您必须首先注册支持。将您的NetApp支持站点凭据与您的 Workload Factory 登录名关联。<block ref="d9fea24984986beabae03291c4b721de" category="inline-link-macro-rx"></block> 。</block>
+  <block id="356c88ac4b0ec3f7689cc91f54701fef" category="list-text">在 Workload Factory 控制台的右上角，选择 *帮助 &gt; 支持*。</block>
+  <block id="6e74b203173a9994c366c7e7a3cf4748" category="paragraph">选择此选项将在新浏览器选项卡中打开NetApp控制台并加载支持仪表板。</block>
+  <block id="3f13dd54818447375c92bf35e0a35f00" category="paragraph">此错误可能意味着 NSS 帐户及其关联的记录公司与NetApp控制台帐户序列号的记录公司不同（即。960xxxx）或系统序列号。您可以使用以下选项之一寻求帮助：</block>
+  <block id="289d2ab2d9b0e116790d035921c12b56" category="paragraph">您可以直接从NetApp控制台查看和管理活动和已解决的支持案例。您可以管理与您的 NSS 帐户和公司相关的案例。</block>
+  <block id="f9a63cd3a07378e169c58addd5fdce8d" category="paragraph">选择此选项将打开NetApp控制台的新浏览器选项卡并加载支持仪表板。</block>
+  <block id="785b440c0be1d853c5e2f4fb1f1ee2ab" category="list-text">选择*案例管理*，如果出现提示，请将您的 NSS 帐户添加到NetApp控制台。</block>
+  <block id="c80d8addb8aa8e8872bbc44894b077f3" category="paragraph">*案例管理*页面显示与您的NetApp控制台用户帐户关联的 NSS 帐户相关的未结案例。这与出现在 *NSS 管理* 页面顶部的 NSS 帐户相同。</block>
+  <block id="9d81bbd35970e642cd152c2d7b884ad3" category="paragraph">NetApp Workload Factory for Builders Web UI 在 P4V 客户端中显示为 HTML 选项卡。</block>
+  <block id="28026612d1d3cfc1279ce88e6ba43385" category="doc">NetApp Workload Factory for Builders 的已知限制</block>
+  <block id="e1b987749d4c714f724f775fc163ece1" category="paragraph">NetApp Workload Factory for Builders 需要操作员权限才能正常运行。</block>
+  <block id="69cbac2ea4c8d8135c47fa4129816ac9" category="summary">NetApp Workload Factory for Builders 是一款面向软件构建者的快速构建环境创建工具。</block>
+  <block id="81e8f46d6546f377175fe2f737bc744f" category="doc">了解NetApp Workload Factory for Builders</block>
+  <block id="3c75100296ff980a8a9dbbe03f1992fc" category="paragraph">NetApp Workload Factory for Builders 是一款面向软件构建者的快速构建环境创建工具。它可以快速设置个人开发环境，节省时间并为开发人员提供自助服务，同时使 DevOps 团队能够保留对基础设施的控制。使用 Builders，软件开发人员可以快速创建工作区，而无需专门的数据存储或了解开发基础设施。</block>
+  <block id="153a8608fc8130abbd02de118db1d3cc" category="section-title">NetApp Workload Factory for Builders 是什么？</block>
+  <block id="b009b63050a2b4c75e03880e29d11e0b" category="paragraph">NetApp Workload Factory for Builders 旨在简化开发人员管理和与不同版本软件交互的方式。  Builders 与 Perforce Helix Core 无缝集成，提供软件版本的即时克隆，为开发、QA 和 CI/CD 流程创建可立即使用的办公空间。</block>
+  <block id="6ae8e58cb52cd45b321927bcb2961f4e" category="inline-link-macro">工作负载工厂概述</block>
+  <block id="1de2994a7e96b0f9f5ffc5fbf74c7cfe" category="paragraph">有关 Workload Factory 的更多信息，请参阅<block ref="74c54dbaee345ad32db577029257fe31" category="inline-link-macro-rx"></block>。</block>
+  <block id="719c5a37d6697e474752aba28ee7ce33" category="section-title">NetApp Workload Factory for Builders 功能</block>
+  <block id="f72ab1f76edac09b9e379212920d4a01" category="paragraph">NetApp Workload Factory for Builders 提供以下功能：</block>
+  <block id="4f7eefbe2de22aca4f898d56772c8c9f" category="section-title">工作负载工厂中的操作模式</block>
+  <block id="7b3be34e841ef7654765950b44c0736d" category="paragraph">三种不同的操作模式 - _基本_、_只读_和_读/写_ - 为工作负载工厂内部和外部的部署提供了灵活的选项。使用可在 Workload Factory 外部使用的代码片段，在基本模式下以零信任获得直接价值。在_只读_和_读/写_模式下通过增量信任获取增量值。</block>
+  <block id="d7df29879844d570a3e64b343a7227e2" category="inline-link-macro">工作负载工厂中的操作模式</block>
+  <block id="dde084f0d745ae579f63b79d128d3cac" category="paragraph">详细了解<block ref="006fa329b97a0e61c793bc816f297534" category="inline-link-macro-rx"></block> 。</block>
+  <block id="5354d1e9ecaabd928d4235d17bb92d9e" category="section-title">使用 Workload Factory Codebox 实现自动化</block>
+  <block id="3b9355b880979c4a10f7d88ded288364" category="list-text">*基础设施即代码副驾驶*：Codebox 是一个基础设施即代码 (IaC) 副驾驶，可帮助开发人员和 DevOps 生成代码来执行 Workload Factory 支持的任何操作。</block>
+  <block id="889974e6a14e5a88ffedb993211543f6" category="paragraph">使用 Workload Factory 的 Builders 功能无需任何费用。</block>
+  <block id="d6da2947e900426b211aad5cbf3e7aad" category="paragraph">无需获得NetApp的特殊许可即可使用 Workload Factory 的 Builders 功能。</block>
+  <block id="5948f3347ebc02ebc690227c059661e1" category="section-title">区域</block>
+  <block id="256c219dd4b8bf29c6df3866d15c5d3b" category="inline-link-macro">获取 Workload Factory Builders 的帮助</block>
+  <block id="7a7c47cf8ef129a34a24c23143e25245" category="paragraph">有关 Workload Factory 或 Workload Factory 应用程序和服务的一般问题，请参阅<block ref="10b6fc905c8d3ffb1731b1f3a132d41f" category="inline-link-macro-rx"></block>。</block>
+  <block id="ca056c972b23517e96f25c9ddba99846" category="doc">NetApp Workload Factory for Builders 的法律声明</block>
+  <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作负载工厂</block>
+  <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
+  <block id="aee6f8bed903be1fd0e588691dc83ee2" category="summary">在数据库工作负载工厂中管理 Microsoft SQL Server 实例。</block>
+  <block id="0e11752f51bf62184a1d93c99ce19266" category="paragraph">您可以管理 Builders 项目，以控制如何在NetApp Workload Factory for Builders 中管理每个项目的代码和工件。</block>
+  <block id="e55e29e359599d9e8e2c9c6bba3c7299" category="list-text">*最大保留天数*：输入克隆应保留的最大天数。在此天数之后，Workload Factory 将删除该克隆。</block>
+  <block id="8398499fb5f1cc438be2e99d974df5cb" category="paragraph">您可以按照以下步骤查看在NetApp Workload Factory for Builders 中创建的现有项目。</block>
+  <block id="3d784fb83da69a092542ad97e84229a1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>登录工作负载工厂</block>
+  <block id="e3f4d5b3a0d16b68c0f95c7031bbab0f" category="inline-link">在 Workload Factory 上创建一个帐户</block>
+  <block id="8af94ef3a55ab31e78f60c3968ecc4e3" category="paragraph">你需要<block ref="c1e10d5d77d21feb199911d5a4450d55" category="inline-link-rx"></block>并使用以下任一方式登录<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block>。</block>
+  <block id="5c8aebe77d27a4b2987620fd2f1b4d55" category="paragraph">您可以在_基本_模式下使用 Workload Factory，而无需添加凭证来访问您的 AWS 账户。以_只读_或_读/写_模式将 AWS 凭证添加到 Workload Factory，可为您的 Workload Factory 帐户提供创建和管理 FSx for ONTAP文件系统以及部署和管理 Builders 项目所需的权限。</block>
+  <block id="4fda2760a0269084f9489aed28ac5218" category="summary">在开始使用NetApp Workload Factory for Builders 之前，请确保 Workload Factory 和 AWS 已正确设置。这包括拥有您的 AWS 登录凭证、部署的 FSx for ONTAP文件系统等。</block>
+  <block id="b036e8f8a9cdb0687eaed2951caa878b" category="list-text">您需要将具有读/写权限的 AWS 凭证添加到 Workload Factory，这意味着您将以 Builders 的读/写模式使用 Workload Factory。</block>
+  <block id="b6358992bb0152c2af9f3e2e315ef468" category="inline-link">了解如何将 AWS 凭证添加到 Workload Factory</block>
+  <block id="1d987effbb1b43fd5943601ad335d806" category="paragraph">目前不支持_基本_模式和_只读_模式权限。<block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
+  <block id="b334128403ed60ff931947907046e1f0" category="summary">在向NetApp技术支持部门提交支持案例之前，您需要向 Workload Factory 添加一个NetApp支持站点帐户，然后注册以获得支持。</block>
+  <block id="42ae904dea03b603a09c8cbc59f1d93d" category="doc">注册以获取NetApp Workload Factory for Builders 的支持</block>
+  <block id="3d9b602ae77ac6a4951ca31b05b6b54f" category="paragraph">需要注册支持才能获得针对NetApp Workload Factory 及其存储解决方案和服务的技术支持。您必须注册NetApp Console 的支持，它是独立于 Workload Factory 的基于 Web 的控制台。</block>
+  <block id="c552970fd4dc8118ba1806da596acad9" category="paragraph">注册支持并不能使NetApp获得云提供商文件服务的支持。有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品的 Workload Factory 文档中的“获取帮助”。</block>
+  <block id="eb803e55617f13b716b5e56642cce2b0" category="paragraph">注册您的帐户 ID 支持订阅（位于NetApp控制台中的“支持资源”页面上的 20 位 960xxxxxxxxx 序列号）作为您的单一支持订阅 ID。每个NetApp帐户级支持订阅都必须注册。</block>
+  <block id="4cffd3c1dbf2f1038c01d18e7a860305" category="paragraph">注册后即可实现开立支持票和自动生成案例等功能。通过将NetApp支持站点 (NSS) 帐户添加到NetApp控制台即可完成注册，如下所述。</block>
+  <block id="f6c4a3ae75d6616126e6da8310ae7384" category="paragraph">要注册支持并激活支持权利，您帐户中的一名用户必须将NetApp支持站点帐户与其NetApp控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。</block>
+  <block id="f732375b4bc27328f202e3b10a957017" category="paragraph">如果您是拥有 NSS 帐户的NetApp客户，则只需通过NetApp控制台注册即可获得支持。</block>
+  <block id="f65aaf10469eac2932fc53c6a37afb71" category="list-text">从NetApp控制台菜单中，选择 *管理*，然后选择 *凭据*。</block>
+  <block id="9094354ffd09e4644caa0010edc66d24" category="paragraph">请注意，如果其他NetApp控制台用户尚未将NetApp支持站点帐户与其NetApp控制台登录名关联，则他们将看不到相同的支持注册状态。但是，这并不意味着您的NetApp帐户未注册支持。只要账户中有一位用户遵循了这些步骤，那么您的账户就注册成功了。</block>
+  <block id="a8f62b208e5177a219f0b0d4ce88e0a9" category="paragraph">如果您是现有NetApp客户，拥有现有许可证和序列号但没有 NSS 帐户，则需要创建一个 NSS 帐户并将其与您的NetApp控制台登录关联。</block>
+  <block id="fb9b6bbcab5fb396a13f67594a0ba1ee" category="list-text">请务必复制上面用于序列号字段的NetApp帐户序列号 (960xxxx)。这将加快账户处理速度。</block>
+  <block id="40eff8559acd41057187b6cb11fa1919" category="list-text">完成以下步骤，将您的新 NSS 帐户与您的NetApp控制台登录关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f335678326583cea28377216c5515221" category="paragraph">拥有NetApp支持站点帐户后，请按照以下步骤将该帐户与您的NetApp控制台登录关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="79b035027d4c9d62dd3bea80612915a7" category="doc">管理NetApp Workload Factory for Builders 项目的版本</block>
+  <block id="0270aa16b7068d8fdfd9200b20cfc5ce" category="inline-link">工作负载工厂 REST API</block>
+  <block id="0868e3336e89d0753f4faeabc2c1b462" category="paragraph">通过直接从 Workload Factory 创建按需快照和克隆，处理 Builders 项目的不同版本。项目的快照和克隆存储在创建项目时与其关联的文件系统中。您还可以使用<block ref="fcbcfb6a9b5948c86224e0f3dc582c2b" category="inline-link-rx"></block>。</block>
+  <block id="d3e4e4eeddf743f9d82a0c8532d7731c" category="summary">了解数据库工作负载工厂的新功能。</block>
+  <block id="a0043b89b5e4ba514b146fca8ca00c92" category="doc">NetApp Workload Factory for Builders 的新功能</block>
+  <block id="1aa1b77f66da56cc3ba1f52039c12b31" category="paragraph">了解 Workload Factory 的 Builders 功能的新功能。</block>
+  <block id="992efefab3dd15099f5eff3f904d8df4" category="section-title">2025年10月5日</block>
+  <block id="3efde4cbb4a0bf42d11d292b9ba2ebb9" category="sidebar">在NetApp Workload Factory 中的 FSx for ONTAP文件系统存储之上创建和管理软件开发项目。</block>
+  <block id="f44b610593adc80df8e04e489ec0c9ff" category="sidebar">NetApp Workload Factory for Builders 文档</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp控制台</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp数据服务</block>
 </blocks>

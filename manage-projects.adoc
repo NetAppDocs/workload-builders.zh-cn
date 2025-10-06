@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: manage-projects.html 
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
-summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。 
+summary: 在数据库工作负载工厂中管理 Microsoft SQL Server 实例。 
 ---
 = 管理构建者项目
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 
 
 [role="lead"]
-您可以管理"构建者"项目、以控制如何在BlueXP  的"构建者工作负载"工厂中为每个项目管理代码和项目。
+您可以管理 Builders 项目，以控制如何在NetApp Workload Factory for Builders 中管理每个项目的代码和工件。
 
 
 
@@ -20,7 +20,7 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 您可以创建新的构建者项目、以便对代码和项目利用Amazon FSx for NetApp ONTAP文件系统的数据保护功能。
 
 .步骤
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 使用以下方式之一登录 Workload Factorylink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 。
 . 在“构建者”磁贴中，选择*Create project*。
 . 在创建项目页面上、提供以下内容：
 +
@@ -42,7 +42,7 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 
 .. *操作策略*：为项目克隆提供限制：
 +
-... *最大保留天数*：输入克隆应保留的最大天数。在此天数后、工作负载出厂将删除此克隆。
+... *最大保留天数*：输入克隆应保留的最大天数。在此天数之后，Workload Factory 将删除该克隆。
 ... *每个用户或组的最大克隆数*：输入可为用户或组配置的最大克隆数。
 ... *以GiB为单位的最大克隆大小*：输入项目克隆的最大大小(以GiB为单位)。
 
@@ -71,10 +71,10 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 
 == 查看现有项目
 
-您可以按照以下步骤查看在BlueXP  Workload Factory中为构建者创建的现有项目。
+您可以按照以下步骤查看在NetApp Workload Factory for Builders 中创建的现有项目。
 
 .步骤
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 使用以下方式之一登录 Workload Factorylink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 。
 . 在“构建者”磁贴中，选择*转至“项目”页面*。
 . 查看"项目"页面上列出的现有项目。
 
@@ -86,7 +86,7 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 您可以随时编辑项目的设置。
 
 .步骤
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 使用以下方式之一登录 Workload Factorylink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 。
 . 在“构建者”磁贴中，选择*转至“项目”页面*。
 . 在项目页面上、为要编辑的项目选择image:icon-action.png["选项按钮"]。
 . 对项目配置进行任何必要的更改。
@@ -100,7 +100,7 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 项目的克隆或快照称为工作空间。创建工作空间时、只要项目的操作策略允许、该工作空间就会保留一段时间。您可以按照以下步骤查看项目的现有工作空间。
 
 .步骤
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 使用以下方式之一登录 Workload Factorylink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 。
 . 在“构建者”磁贴中，选择*转至“项目”页面*。
 . 在“项目”页面上，选择一个项目，然后选择*View*。
 . 查看此项目的所有工作区的状态和详细信息。
@@ -114,7 +114,7 @@ summary: 在工作负载工厂管理数据库的Microsoft SQL Server实例。
 您可以按照以下步骤删除不再需要的项目。
 
 .步骤
-. 使用其中一个登录到工作负载工厂link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+. 使用以下方式之一登录 Workload Factorylink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^] 。
 . 在“构建者”磁贴中，选择*转至“项目”页面*。
 . 在项目页面上、为要删除的项目选择image:icon-action.png["选项按钮"]。
 . 选择 * 删除 * 。

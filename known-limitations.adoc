@@ -4,7 +4,7 @@ permalink: known-limitations.html
 keywords: limitations, builders 
 summary: 已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。 
 ---
-= 适用于构建者的BlueXP  工作负载工厂的已知限制
+= NetApp Workload Factory for Builders 的已知限制
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
@@ -17,4 +17,4 @@ summary: 已知限制确定了本产品版本不支持的平台、设备或功�
 
 == 需要操作员权限
 
-BlueXP  Workload Factory for Build需要操作员权限才能正常运行。
+NetApp Workload Factory for Builders 需要操作员权限才能正常运行。

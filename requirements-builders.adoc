@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements-builders.html 
 keywords: Builders, FSx, project, projects 
-summary: 在开始使用适用于构建者的BlueXP  工作负载工厂之前、请确保已正确设置工作负载工厂和AWS。其中包括拥有AWS登录凭据、已部署的FSx for ONTAP文件系统等。 
+summary: 在开始使用NetApp Workload Factory for Builders 之前，请确保 Workload Factory 和 AWS 已正确设置。这包括拥有您的 AWS 登录凭证、部署的 FSx for ONTAP文件系统等。 
 ---
 = 构建者要求
 :allow-uri-read: 
@@ -11,13 +11,13 @@ summary: 在开始使用适用于构建者的BlueXP  工作负载工厂之前�
 
 
 [role="lead"]
-在开始使用适用于构建者的BlueXP  工作负载工厂之前、请确保已正确设置工作负载工厂和AWS。其中包括拥有AWS登录凭据、已部署的FSx for ONTAP文件系统等。
+在开始使用NetApp Workload Factory for Builders 之前，请确保 Workload Factory 和 AWS 已正确设置。这包括拥有您的 AWS 登录凭证、部署的 FSx for ONTAP文件系统等。
 
-工作负载出厂登录和帐户:: 您需要 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["在Workload Factory中设置一个帐户"^]使用其中一个登录 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
-AWS 凭据和权限:: 您需要将 AWS 凭证添加到具有读/写权限的工作负载工厂，这意味着您将在 Builders 的读/写模式下使用工作负载工厂。
+工作负载出厂登录和帐户:: 你需要 https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["在 Workload Factory 上创建一个帐户"^]并使用以下任一方式登录 https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["控制台体验"^]。
+AWS 凭据和权限:: 您需要将具有读/写权限的 AWS 凭证添加到 Workload Factory，这意味着您将以 Builders 的读/写模式使用 Workload Factory。
 
 
-目前不支持_基本_模式和_只读_模式权限。 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何将AWS凭据添加到工作负载工厂"^]
+目前不支持_基本_模式和_只读_模式权限。https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何将 AWS 凭证添加到 Workload Factory"^]
 
 FSx for ONTAP文件系统:: 对于ONTAP文件系统、至少需要一个FSx：
 +
